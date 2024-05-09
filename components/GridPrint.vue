@@ -1,5 +1,5 @@
 <template>
-  <div><PrintSheet /></div>
+  <div>Grid Print</div>
 </template>
 
 <script setup lang="ts"></script>

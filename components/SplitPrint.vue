@@ -1,5 +1,5 @@
 <template>
-  <div><PrintSheet /></div>
+  <div>Split Print</div>
 </template>
 
 <script setup lang="ts"></script>

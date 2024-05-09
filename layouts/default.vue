@@ -1,5 +1,8 @@
 <template>
-  <div class="relative d-flex flex-column h-screen">
+  <div
+    id="page"
+    class="relative mx-auto w-100 d-flex flex-column h-screen"
+  >
     <header>header</header>
     <main class="flex-grow-1">
       <slot />
@@ -10,4 +13,8 @@
 
 <script setup lang="ts"></script>
 
-<style scoped></style>
+<style scoped>
+#page {
+  max-width: 1280px;
+}
+</style>
